@@ -1,6 +1,6 @@
 const should = require("should");
 const sinon = require("sinon");
-const booksController = require("../tests/booksControllerTests");
+const booksController = require("../controllers/booksController");
 
 describe("Book Controller Test", () => {
   describe("Post", () => {
